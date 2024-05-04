@@ -1,11 +1,15 @@
+/* Embedded Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15+Charted&display=swap');
+
+/* Root Styles */
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Jersey 15 Charted', as, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: #803D3B;
+  background-color: #E4C59E;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -13,13 +17,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Rest of your CSS styles */
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #322C2B;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: #803D3B;
 }
 
 body {
@@ -31,8 +36,8 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-size: 3.9em;
+  line-height: 1.5;
 }
 
 button {
@@ -47,22 +52,15 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #803D3B;
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+/* Adding border to images */
+img {
+  border: 2px solid #000000; /* Change the color and width as needed */
 }
+
